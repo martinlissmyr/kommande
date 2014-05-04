@@ -1,0 +1,21 @@
+{
+  "name": "nws",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "~0.10.24"
+  },
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-express-server": "~0.4.11",
+    "grunt-env": "~0.4.1",
+    "express": "3.4.7",
+    "ejs": "*",
+    "shelljs": "~0.2.6",
+    "lodash": "2.4.1",
+    "q": "1.0.0",
+    "moment": "~2.6.0"
+  }
+}
