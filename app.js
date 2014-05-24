@@ -21,9 +21,16 @@ app.get('/', function(request, response) {
 });
 
 app.get('/events', function(request, response) {
-  getEvents().then(function(events) {
+  var fetch = getEvents();
+  
+  fetch.done(function(events) {
     response.json(events);
-  })
+  });
+
+  fetch.fail(function(status) {
+    response.status(500).json(status);
+  });
+
 });
 
 http.createServer(app).listen(app.get('port'), function(){
