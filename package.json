@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "engines": {
-    "node": "~0.10.24"
+    "node": "~4.8.4"
   },
   "dependencies": {
     "grunt": "~0.4.2",
@@ -15,7 +15,7 @@
     "ejs": "*",
     "shelljs": "~0.2.6",
     "lodash": "2.4.1",
-    "q": "1.0.0",
+    "q": "~1.5.0",
     "moment": "~2.6.0"
   }
 }
